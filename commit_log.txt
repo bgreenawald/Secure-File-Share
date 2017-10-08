@@ -1,0 +1,1954 @@
+commit ae4979af64fbb113adc179b56cf3c49aa5b90d6e
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 23:04:21 2016 -0500
+
+    Adjusted FDA
+
+commit 241b27b445c6fa5ed28d5ac2bb353a39670351bd
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 22:56:00 2016 -0500
+
+    Small change to manager search
+
+commit 2efe15d6e9d4613569911694f5e91ffd64a07107
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 22:54:41 2016 -0500
+
+    Small change to inbox search
+
+commit 1c321b5f04cab207cabb23cdf9a9dae3713e0fd4
+Merge: 69a28d9 2cc1162
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 22:31:12 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 69a28d93f5c9be99d769216fb75c6453f0b5781b
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 22:31:00 2016 -0500
+
+    Small fixes all around
+
+commit 2cc11621b179c673fe2b079d870586c81216230d
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 22:25:47 2016 -0500
+
+    Fixed stuff
+
+commit dad7ca231b9f4a348951ca965562fce609c089c0
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 22:19:16 2016 -0500
+
+    Continued encryption revamping
+
+commit 4edd82a0e1da6e56a5ba1c52d74ece0b45edb6f9
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 22:08:34 2016 -0500
+
+    Cleanup
+
+commit 2dd895c9513841b31d135363c4d5424b546a5cc3
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 22:05:36 2016 -0500
+
+    Adjustment to FDA
+
+commit ebc223f9944de2d218d05f82a844553de0548131
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 21:53:28 2016 -0500
+
+    Update startup script
+
+commit 091b0b545f9ca191edef431b78922c1e520ac960
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 21:46:53 2016 -0500
+
+    Hopefully fixed startup script
+
+commit 078e33bb14e6ab836e469841369439948a3685a5
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 21:38:00 2016 -0500
+
+    Fixed routing issue with user viewing invalid reports
+
+commit 7eaf112039c82d0c146e2b3cb69b1b613d9b969f
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 20:35:18 2016 -0500
+
+    Added startup script for creating the appropriate groups
+
+commit 6f315e807822bab346273a04836b666589417eec
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:49:45 2016 -0500
+
+    Button updates and key recovery fix
+
+commit 4a91971b344705708bdf10b8c79c1dd431b787e9
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:38:12 2016 -0500
+
+    Search unread now works
+
+commit a55cb12e5524515ad0a9f6b2048b5fc4db50fe4e
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:31:59 2016 -0500
+
+    Fixed message bug and updated view message interface
+
+commit aca3a9ed2b28e277819fdd5b38a390be0688b225
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:21:24 2016 -0500
+
+    Potential fix to 'unbounded local variable' issue
+
+commit 579c22a55008f3a1451fe90a99e709222656a0c2
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:06:24 2016 -0500
+
+    Fixed login button
+
+commit 24557abfb2658cb5fab7c78eb93ca425e5e3cb22
+Merge: c65cdb0 a4c3925
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:04:59 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit c65cdb030969af2816ceb9ff9ee6adbd0896f875
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 18:04:49 2016 -0500
+
+    Small change to homepage
+
+commit a4c3925e41fbe38048b4a1aec8e4f57034e310f0
+Merge: 983c5fe a31cc6f
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 16:04:04 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 983c5fe1228d85a66a5bd0e091733df2fb2cff95
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 16:03:33 2016 -0500
+
+    Site manager can upload the FDA
+
+commit a31cc6fe4ceca851ab50f139919b666eaaa99f93
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:50:36 2016 -0500
+
+    Bugs updated
+
+commit e00ea787fdc33c7fda8c08e92d1ee1b2e3528eac
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:46:59 2016 -0500
+
+    Fixed manager not showing up on trash and inbox
+
+commit c91919f892538d7a8c357121a6ef81cd0e03e2b3
+Merge: 9bc932a 0b2ec3c
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:42:38 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 9bc932aea25f28dff1612e861de15f16f14a15aa
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:42:23 2016 -0500
+
+    Default ordering for reports fixed
+
+commit 0b2ec3c4a15de47a63a781175dbfb610c0eda5fd
+Merge: 1418f99 4d213a7
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 15:40:49 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 1418f997b284a81249ee651cde5c7b48c04567d8
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 15:40:29 2016 -0500
+
+    Mark finished bugs
+
+commit 5e003f87b8c5c36ec648440157bae3c23edf0de9
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 15:39:50 2016 -0500
+
+    Bugs fixes
+
+commit 4d213a7f7aeef339a79d9df4fcb0ad6d8f68636a
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:38:45 2016 -0500
+
+    Fixed delete from browse page
+
+commit 7fa36b24615b5015e3c343560f1db508c856a59b
+Merge: 1be1397 651d1a5
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:18:02 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 1be1397d9a4c50092a8ea265dbe19b13c24ea743
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 15:17:20 2016 -0500
+
+    Adding to folder bug fixed
+
+commit 651d1a5619082615518115cc012e7287956c405e
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 14:57:26 2016 -0500
+
+    Adjustments
+
+commit 0a2b26fdaceb4491f9e29cf12aea3dedaa79b946
+Merge: 6a78e8c 60cecdb
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 14:57:21 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 60cecdb1747fc681479524dde9e29938266a91a2
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 14:57:00 2016 -0500
+
+    Fixed datetime shit
+
+commit 6a78e8cb68b7ffbf892e81bf11e4acdd8ed22db3
+Merge: d440b89 00023df
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 14:18:35 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit d440b89219f17f6b65d2ec166d4ad81cd05d7b07
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 14:18:02 2016 -0500
+
+    Started auto-uploading the FDA
+
+commit 00023df3f9233b8ffa8425e12dd90867ba8d7d09
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 14:17:27 2016 -0500
+
+    Added manager
+
+commit 57d4a1f7b1d172dd8a14ee41b045118795abedb3
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 14:11:56 2016 -0500
+
+    FAQ and homepage updates
+
+commit bc0c53d0dad56a585d14d351ab25d4cdc896e7db
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 13:43:40 2016 -0500
+
+    FAQ added, group name excepts spaces
+
+commit 611c0f0d80d56c3cdb4717ad4cef563ffbe5d435
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 13:18:23 2016 -0500
+
+    Adjustments
+
+commit fd22a374a64d91e27cf840b3f18bd5758b88281c
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 12:57:48 2016 -0500
+
+    Browse report rendering fixed
+
+commit 039e4809301d1c244ddb676557e0f6ddec017915
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 11:35:03 2016 -0500
+
+    Suspended works across site, sent routing removed
+
+commit 1a867867b85f8ff8ba1647f163a0386fd7939a22
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 11:26:24 2016 -0500
+
+    FDA: updated usage text
+
+commit d2fda62be863896ce0cb50efcbadbf52c88e6720
+Merge: 6e89e73 c38e245
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 11:02:38 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 6e89e73d66ea871179fcfda47a6ffbbd0e2218a0
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Dec 5 11:02:24 2016 -0500
+
+    Search field browse formatting fixed, bug in collapse menu
+
+commit c38e245e1e2b976d4e68da8a61864e60c83422bb
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 10:55:18 2016 -0500
+
+    FDA no longer crashes due to bad command-line arguments
+
+commit 1708cfba09ed5ee269956b515cf131ff5476228a
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Dec 5 10:34:59 2016 -0500
+
+    FDA can now encrypt for a target user
+
+commit 0873eeae53f916c4972868bc1472d746c958d4fa
+Merge: cf6918b 017f028
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 21:03:53 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit cf6918b30292e1677be755b8ff25ca29a96fd29d
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 21:03:41 2016 -0500
+
+    Formatting for folders, overall UI changes
+
+commit d02b284a826600350bcd34c0efaf2486f5b67adc
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 18:30:04 2016 -0500
+
+    General form improvements
+
+commit 017f028789f75b0cf374899e5e23fa5bbb996f66
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 18:13:36 2016 -0500
+
+    Adjusted the FDA to use the Heroku URL
+
+commit 1093bef7178b3d7cd70dac321b76bdf4f7079fcb
+Merge: c817214 d2fe278
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 18:11:33 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit c8172143c5e886c0292275ba0a4dc8bb8ae46e76
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 18:10:40 2016 -0500
+
+    FDA now interacts with group-shared reports
+
+commit d2fe2782ed50fa51de997843d97b92bb1280b135
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 16:43:01 2016 -0500
+
+    Removed unnecesary messages
+
+commit 9a1c497cf3940570723729f9946c0d21e68711c2
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 16:21:27 2016 -0500
+
+    FDA now shows owner
+
+commit 59b193cc9df7cccb450a2d1b9d018395b08daba6
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 16:11:53 2016 -0500
+
+    FDA now shows report owner
+
+commit fc79bd12267fe48c674b11a552060e2b9fa1ef2b
+Merge: e137c0b d922d6e
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 16:07:37 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit e137c0ba3069755ab75b0db1eb42acabe35257a7
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 16:07:17 2016 -0500
+
+    Added report creation message
+
+commit d922d6eff6681b41d7fc0a7a65e8c0f0e11e9fa1
+Merge: f373f92 5e076b7
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 16:01:03 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit f373f9269268f40ae51f4b469c1c34bdfead07e9
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 16:00:34 2016 -0500
+
+    Fixed FDA view report
+
+commit 5e076b78f1afecb9e932658866092cc5b0b59500
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 15:57:26 2016 -0500
+
+    Fixed browse
+
+commit 8cac61263e37f3bd16a6528c698b9895adc66dea
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 15:41:06 2016 -0500
+
+    Updated to use datetime from date
+
+commit 39dbd09773dbf218f79bbf716881c331ec4675d1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 15:13:12 2016 -0500
+
+    Adjusted spacing; reduced awkwardness
+
+commit 625a3369784d096d30f5b89cbb2d1098c5084879
+Merge: 4c83ca8 a302e0d
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 15:10:47 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 4c83ca8ff988033e3a3fa271c73fe75e31270798
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 15:10:24 2016 -0500
+
+    Simpe UI changes
+
+commit a302e0d633cf80146740d653be116790384f093d
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 15:08:52 2016 -0500
+
+    Adjustments
+
+commit 2c18b0e3be981b6f66152227aad34d9e1d4d158e
+Merge: cf62a6b 9cd114c
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Dec 4 15:08:43 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 9cd114cefb4640a78397c1c6025d2019fb735e75
+Merge: 160200d f8a7dba
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 14:33:10 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 160200de5308e018f455cac3f1c99f09652b56d9
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Dec 4 14:32:58 2016 -0500
+
+    small changes:
+
+commit cf62a6b3d319b8b664d5fabc04395b79b4010f32
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Dec 3 00:33:23 2016 -0500
+
+    Adjusted private key text area size
+
+commit f8a7dbae3946e27a0b605529aa666a594f05783f
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 23:03:13 2016 -0500
+
+    FDA encryption now works for large files
+
+commit 16e16ac680047049d9277bca4a8ed1d18c13c466
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 21:54:21 2016 -0500
+
+    FDA updated to use Heroku's server
+
+commit d58bb8b2074b79db43adc2a801aecf78ec82af81
+Merge: c0c7ed0 6ce0852
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 21:41:55 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit c0c7ed078cbad162d8bc3b3db24b51f884b185a5
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 21:40:44 2016 -0500
+
+    Now secure private key output; secured file downloads
+
+commit 6ce08527e6129f97e5b0cab486aae68fbb4eee83
+Merge: fba5167 e07f795
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 21:13:30 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit fba516734cd4bb4067abcf6b171b6bc66c12f53f
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 21:10:11 2016 -0500
+
+    Updated FDA
+
+commit 80b7988bd678be14ef61cce7fa3acffdcc325cf4
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 14:21:05 2016 -0500
+
+    Fixed more tab issues
+
+commit 63abfe1e4d42f0a999015e54571f936a1808183f
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 14:19:16 2016 -0500
+
+    Fixed tab glitch
+
+commit 872f1bb30bd0536496b0dc9b18d124916abc50bd
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 14:17:27 2016 -0500
+
+    Fixed glitch
+
+commit a0c0246af069ce4f8a6031418a9319c642d9e421
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 14:04:37 2016 -0500
+
+    Updated database
+
+commit fa2767164ecffc268559cf390b922317a55a179a
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 13:59:53 2016 -0500
+
+    Updated database info
+
+commit e07f7959233aea8bed84008177572c0d3e5ba86b
+Merge: d28fb2b cebfba6
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 13:56:46 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit d28fb2b16441f8a400cb2f95d18d871dde648a19
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 13:56:20 2016 -0500
+
+    content added to logged out home screen, sent template fixed
+
+commit 19f8834155ef949ff3cf140f9a8d7db2cad0940d
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 13:54:24 2016 -0500
+
+    Switched to the Heroku database
+
+commit cebfba66919b0114fee0f1be6ecfcb7d374c04b6
+Merge: bf88d8d d44df07
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 13:41:04 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit bf88d8da6e94956588ed0052475fedc3f37eb70c
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 13:40:53 2016 -0500
+
+    Added search to inbox
+
+commit a63805f1c998e0b92eec7d03fc242ef9f3cbe506
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Dec 2 13:37:36 2016 -0500
+
+    Fixed STATICFILES_DIRS (?)
+
+commit d44df0701af2905c557f959b6f3d0d61d7726d53
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 13:31:27 2016 -0500
+
+    sent and trash added to dropdown menu
+
+commit f3bd37db9642c5dd901d9b3f0991312ac0287f79
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 13:26:41 2016 -0500
+
+    only message recipients can delete messages
+
+commit 21323cda945d0e96fb02c1e59bb471f8d55fd283
+Merge: 7b8e069 c983de4
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 13:10:26 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 7b8e0690479b080f105a79abe56a8e1503f84b93
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 13:09:56 2016 -0500
+
+    Trash is working
+
+commit c983de40c021f8a4912d802ae40b964786e2019a
+Merge: 542c717 b3348aa
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 12:50:04 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 542c71726067699cb27bc29e1fe306f5be99770e
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 12:49:53 2016 -0500
+
+    Private key recovery
+
+commit b3348aaa1467d201f0353d4eeb9d2209abebb745
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 12:40:53 2016 -0500
+
+    sent is set up
+
+commit ab6fcf25ecd7288753e60d69f077e245a1d00fc2
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 12:31:57 2016 -0500
+
+    fixed unread messages bug
+
+commit 199c562f60a802abe0af705c6b1a3871341b618e
+Merge: 5527dbf bde7cdc
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 12:07:50 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit bde7cdc0d2b24bc5653e540dd639df75e93b170c
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Fri Dec 2 12:17:36 2016 -0500
+
+    inbox can send to trash, filters out deleted messages
+
+commit 5527dbf257a0b7511abf6e935d50c921d0a72618
+Merge: 8003fe9 674bd03
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 12:01:05 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 8003fe9436d79db2aeb189fd0457e90bd8ac78b6
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Dec 2 12:00:54 2016 -0500
+
+    Small usability changes, folders bug fixed
+
+commit 674bd03c7f78b6aaa523183542eccd052aae0213
+Author: Dan <ds5ct@virginia.edu>
+Date:   Fri Dec 2 11:22:12 2016 -0500
+
+    Fix requirements.txt
+
+commit d8efdfb75ac41e15a8a6b56a1ce40ebf71bf4856
+Author: Dan <ds5ct@virginia.edu>
+Date:   Fri Dec 2 11:18:39 2016 -0500
+
+    Sync up heroku
+
+commit 95ef2ad5ac506e0e88649134e323e1a63d21fccd
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 16:42:34 2016 -0500
+
+    Added admin page
+
+commit f26dac25fb15a78b3af1ef8bc4b3ff92dc4b1414
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 15:06:57 2016 -0500
+
+    UI change to edit folders
+
+commit 59f53df8d08afbba6efbe72bbc91157332ceef21
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 14:40:53 2016 -0500
+
+    Edit and delete folders
+
+commit c21469250fa20da0f0e7400f9b371404602d4ffd
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 13:32:42 2016 -0500
+
+    Work on website homepage
+
+commit 4eee062e418f16a94745d2590c4f928c9f957c8f
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 13:13:05 2016 -0500
+
+    Added basic folder functionality to the front end
+
+commit 41585a0822da4ed247382231ff75e9f7ca07e8eb
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 10:58:53 2016 -0500
+
+    Basic send message to group functionality
+
+commit 68fd6efa1c92506d18d3b49b74e41f5d8d6f6d50
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Dec 1 10:21:58 2016 -0500
+
+     Reply message working
+
+commit 5b4671baef34a8592c7653b33b10b7fbda02c95d
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 30 11:50:23 2016 -0500
+
+    Messages can be ecrypted or not
+
+commit 96f73c5ded571b94f4f0742f3424173b0bffb71b
+Merge: abfafdf 38b5ee0
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 30 10:49:30 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit abfafdfad0fc1f365f1714db44a925db3194d8fc
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 30 10:49:14 2016 -0500
+
+    Added additional sorting feature
+
+commit 38b5ee026e010684c8809358695bce2b5b0e9af2
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Tue Nov 29 23:45:25 2016 -0500
+
+    Fixed a typo
+
+commit 5c9a72c96a7e5b10a3f545f8a15a64b8d29557f8
+Merge: ae11427 21fe4f4
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Tue Nov 29 23:40:32 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit ae11427a38bba3daa1eec716ff2f501bf05b7c3b
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Tue Nov 29 23:39:45 2016 -0500
+
+    SFS and FDA both support file signing for both regular and encrypted files
+
+commit 21fe4f40e30d4951f2653398d5852e89549046a1
+Merge: 60344f0 b8e6ad8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 29 22:45:22 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 60344f04de685ec16362d7acc4f4bcb968deb6bb
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 29 22:45:10 2016 -0500
+
+    Search by numnber of views, skeleton for sorting
+
+commit b8e6ad88bfc429171cbbfb481b5c8537ce9d54f1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Tue Nov 29 19:36:05 2016 -0500
+
+    Cleanup and FDA now encrypts with RSA public-key encryption
+
+commit 8dd832bc4b51986bfe035bb0e7e3e3d966f59f8a
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 29 14:52:37 2016 -0500
+
+    Added login navigation and message information across the entire site
+
+commit cae3b6230eac429b83a6bcfac21547e79d089f98
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 29 13:39:17 2016 -0500
+
+    Allowed upload of encrypted files, general performance changes
+
+commit 9c7ef6f295321190d3e305748b36cbf253596259
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Tue Nov 29 12:57:59 2016 -0500
+
+    Cleanup and modified .gitignore to be a bit more broad
+
+commit f87daf8ce79e907626fadfbe2345536c92219e27
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 20:50:10 2016 -0500
+
+    start password recovery
+
+commit 1f195380230547433d92b936925c0df6ba5e5b00
+Merge: d355e89 0f191a2
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 20:46:01 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit d355e893b29f8f9e6a4971209ebce8ef2f752a75
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 20:45:04 2016 -0500
+
+    Starting password reset
+
+commit 0f191a289f7a6209ce6cd6aa51a4c542c0cfdd1a
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 28 19:57:14 2016 -0500
+
+    working on trash
+
+commit ed25a8861d438997fa91ccedfa87c114706b498c
+Merge: 1abecb7 d3ae058
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 19:25:42 2016 -0500
+
+    Merge changes
+
+commit 1abecb7db07531e3f2f20c52054de1e83bc67afc
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 19:17:09 2016 -0500
+
+    Improved inbox functionality
+
+commit d3ae0589d842f9d9aaf1441b216a0767bb98f166
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 16:00:27 2016 -0500
+
+    Even more templates recovered
+
+commit 190424d766cec6093eb52a31402384b68e4758b4
+Merge: f40a3be eebbc0f
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 15:17:44 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit f40a3bed31d747e555b92110e1cff794bb1081e8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 15:17:16 2016 -0500
+
+    Reverted messaging
+
+commit eebbc0fb3bbf18b6a352eeb929603ef9738b58f2
+Merge: 2faeb2a db4f4fd
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 28 15:13:26 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 2faeb2ae484ce85cb192fedb1c5a34eaed782684
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 28 15:13:01 2016 -0500
+
+    FDA changes
+
+commit db4f4fd9f2532f710b79b9101c1357ae06d5b8a8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 15:06:50 2016 -0500
+
+    Added logged in and logged out boycott git
+
+commit 978137d45a12ea7af4205d9f0578acccc5fab350
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 15:02:42 2016 -0500
+
+    Boycott git
+
+commit b18f71ee2a6eb1657560f2c79886be789540319a
+Merge: 4e0e21a a925f6e
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 14:28:24 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit a925f6e70577b399a2a0db59a4f63a71a18486a2
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 14:25:16 2016 -0500
+
+    add init
+
+commit 4e0e21aeec32cc8a2a7b58ea9cfb3302630d2272
+Merge: fb0ad9c de43d35
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 14:24:37 2016 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit 4c3a27a66a0e3382465e6ee7cdb9f7264541e6db
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 14:20:41 2016 -0500
+
+    init.py
+
+commit 633d0142e323939b3a31be5fdf08a0323594cef6
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 14:14:47 2016 -0500
+
+    wsgi
+
+commit de43d35e00fbaa7d382fb3e2c0be385fed97abbd
+Merge: fb804a7 27e4097
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 14:11:54 2016 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit 27e40979c57aa0c031ba84cbb423f75de5eb5148
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 13:36:13 2016 -0500
+
+    Revert changes
+
+commit fb0ad9cf8e88921e9d03056820e36fc4dd7bc97f
+Merge: 242cb96 fb804a7
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 13:29:57 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 242cb96021024098e1525d8013c6ab1768cde7b2
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 13:29:12 2016 -0500
+
+    Messages not working
+
+commit fb804a7d5a2db7b4e1c1151ebd9a5063b54bfa8d
+Merge: 1b799f8 f51f9a7
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 13:17:56 2016 -0500
+
+    Begin folder
+
+commit 1b799f84e1d97ebb93cda48cc6f257a099352310
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 13:15:48 2016 -0500
+
+    save
+
+commit f51f9a75d7c4ccf24da80b4f65e8783ba66d56c0
+Author: Shappp <ds5ct@virginia.edu>
+Date:   Mon Nov 28 13:15:06 2016 -0500
+
+    Delete *#2
+
+commit b10e2ee2047f8e0aa073a964db9d320ecd6219fe
+Author: Shappp <ds5ct@virginia.edu>
+Date:   Mon Nov 28 12:18:14 2016 -0500
+
+    Update .gitignore
+
+commit c70b7ad7052e4f1676eedf66c97b5f5a1790a6c1
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 28 12:14:50 2016 -0500
+
+    Begin creating folder functionality
+
+commit 1081c3ee8364c0474477cbeca4fd22062ec9374f
+Merge: 67308a7 7240364
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 11:41:23 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 67308a72e8868cff4f23d2afd00dee9660766a8a
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 28 11:40:53 2016 -0500
+
+    Collapsable search form and added number of views field
+
+commit 7240364bc5e626494af3eca03d8df70d146f287b
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 28 11:08:50 2016 -0500
+
+    Updated FDA to be secure
+
+commit f8f4c309719d09677ff038cb602394d433f464d3
+Merge: 636a908 182046a
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 26 12:01:36 2016 -0500
+
+    Encrypted messaginh
+
+commit 182046a0abb36ee486342abb58c4258a9e45291b
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 26 11:55:10 2016 -0500
+
+    Delete __init__.py
+
+commit a617957a173f2a56383c82ba5b5078db54ab6e5d
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 26 11:55:01 2016 -0500
+
+    Delete 0001_initial.py
+
+commit 1c0a7f07024da8289c0774a75caf0dba4d995644
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 26 11:54:39 2016 -0500
+
+    Delete 0001_initial.py
+
+commit 0a64354d0310fb858d9aa9d6c4c6a36bc2d604d5
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 26 11:54:25 2016 -0500
+
+    Delete __init__.py
+
+commit 636a9089bd3a1512664bb16db2ff33815da365f0
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 26 11:46:13 2016 -0500
+
+    Working encryption
+
+commit 5b58c06b4dea8e2587de0ea6ffef9481db59a5a6
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 22 13:34:00 2016 -0500
+
+    Further bootstrap implementation
+
+commit 2f324b5a1b4dac27393a32c4901eb394b751c9f8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 22 13:05:46 2016 -0500
+
+    Begin transition to bootstrap
+
+commit 9981713b1e6d7962bfb0a5c4d9fd2a615c7317b6
+Merge: 80ef815 481cfb1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 21 14:41:08 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 80ef8157c6e0966c394c863a47a7269455fc7ffc
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 21 14:40:38 2016 -0500
+
+    The FDA now downloads report files
+
+commit 481cfb168cf90cd4ad372db956bc3f2b24b3bc1f
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 21 14:38:26 2016 -0500
+
+    signup/views now imports RSA
+
+commit 594092adb52c9ca15c2f61600f237bd88c832829
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 21 14:33:55 2016 -0500
+
+    users get a public and private key when they register
+
+commit 8d082bf692df746ba6420106a11c23ce54a6fa35
+Merge: c2934f0 a490170
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 21 13:59:36 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit c2934f067b50595b6b7ecfc58337747eaf98d138
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 21 13:58:24 2016 -0500
+
+    The FDA now views reports
+
+commit a490170bd35acf91bba8b11d00287a6c5207e2f3
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 21 13:46:36 2016 -0500
+
+    Increased Message functionality and connectivity
+
+commit 9aeac9f190c9a817ac6d1fb975f017ca20e7b622
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 21 13:17:37 2016 -0500
+
+    Added functionality for delete reports
+
+commit ce50fbf7538b5913f9c745b8272f23eb4e8754a2
+Merge: e549995 4d8eb30
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 21 12:53:26 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit e549995e93c56abd6f3b983db7202d0e68d92d99
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 21 12:53:14 2016 -0500
+
+    Delete files
+
+commit 4d8eb3028a10a2f7db1b392b1e23b4a8a3c9c348
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 21 12:20:46 2016 -0500
+
+    Explains when logins fail
+
+commit 30c10470eff3b817ca167038d5a0d1e889d9666b
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 21 11:30:36 2016 -0500
+
+    FDA now lists reports
+
+commit ae5bf6b6048bd35b492af76351707be3166f6e13
+Merge: 0ec7c0a ed12ca1
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 20 21:07:36 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 0ec7c0a90f45413b1ae9df656ad347d5d38c9351
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 20 21:07:25 2016 -0500
+
+    Search functionity and paginated reports
+
+commit ed12ca17e19e41f4268045e5547117c3e2d65ba6
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Sun Nov 20 17:25:19 2016 -0500
+
+    inbox, sent, and view_message pages added
+
+commit 5ef9b6f9d995a90820516663f0d9c1184668faed
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 20 16:41:51 2016 -0500
+
+    Basic edit report functionality
+
+commit c2d5b731da76bf28c7892f445a4f0f36106ca1ce
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Nov 19 21:00:41 2016 -0500
+
+    New login method(s)
+
+commit aa13d9a5c04af7db5992ddf539178dcf7fa1ecc9
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Nov 19 19:39:02 2016 -0500
+
+    The FDA is now a Django app
+
+commit 64dd2e46908f483efe288ca46d8754b31b2608c5
+Merge: 7ff7803 629b3fa
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Nov 19 19:19:20 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 7ff780384fe9104ea4a6b8389327c2d8ff032314
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Nov 19 19:18:20 2016 -0500
+
+    Begin linking FDA to SFS
+
+commit 629b3fa6897e212fb9bb1416ab69004c04b8e89f
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Nov 17 15:01:50 2016 -0500
+
+    Near complete superuser functionality
+
+commit d93b4284f417d890f3f1f8cfd022ce7f462e101f
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 16:24:25 2016 -0500
+
+    Further improved user login
+
+commit 6a94136d52dc3734e7d53fe3af0e3b938a5c8e68
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 16:21:16 2016 -0500
+
+    Updated error messages for registration
+
+commit 753cd6008ba30eee577fedb99b031fa6f37fafd9
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 14:37:58 2016 -0500
+
+    Fixed startup script
+
+commit a05a7a72c72139499fedf6fb42b8a5107c8b37f0
+Merge: c2c96e2 8a8a7fa
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 14:35:24 2016 -0500
+
+    migrations
+
+commit c2c96e26e976e28a28114b7af012d788e92f12bb
+Merge: 476a519 1ccd745
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 14:34:09 2016 -0500
+
+    Finalized models hopefully
+
+commit 8a8a7fa3d4417a4862567026cfa696d532408ce4
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 14:32:14 2016 -0500
+
+    Delete 0001_initial.py
+
+commit e530b29aac762ad7e282b40a2066ee35459b424d
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 14:31:53 2016 -0500
+
+    Delete 0001_initial.py
+
+commit 476a5191d7e4eaaeade56ddc1b7217f3937e0271
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 15 14:26:28 2016 -0500
+
+    Startup script added
+
+commit 1ccd745ac59eca278fef5dac65fc0f3e60271c4c
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 14 15:15:24 2016 -0500
+
+    Fixed my_report table format
+
+commit 4f75d6100ede3e16c38d925620c4adace1cefe4f
+Author: Shappp <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:59:08 2016 -0500
+
+    Update .gitignore
+
+commit 98ba1971313b4b3d2730cebcfd701e484468bfce
+Author: Shappp <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:58:31 2016 -0500
+
+    Update .gitignore
+
+commit a432cbaaf897f4ef0b28fd30a16d0941ad884bd0
+Author: Shappp <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:57:00 2016 -0500
+
+    Update .gitignore
+
+commit 9faa5bc1bc730a7225df8b49d7506e85439a69fb
+Author: Shappp <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:56:25 2016 -0500
+
+    Update .gitignore
+
+commit 0da9f6c4e3dd2df944d87a53fa50763035769e11
+Merge: 3cd7c07 1bd2fa1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 14 14:43:10 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 3cd7c07c9ecb9ccfca41c64627bc2d284c4754c8
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 14 14:42:32 2016 -0500
+
+    Fixed indentations
+
+commit 1bd2fa1346fc4c5a5691b8e97e927cf0cdda2483
+Merge: 76e9295 1f8e77a
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:37:48 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 76e92951df43fe17cac300c5d40663fb1a5b9a09
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:37:31 2016 -0500
+
+    Updated gitignore
+
+commit 1f8e77a440b2a8fa84e7fbab9071fcbe6b666951
+Merge: 78e67b1 db13d80
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 14 14:35:54 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 78e67b1b61b2c58c1498a09a1061f219e04dd938
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 14 14:34:01 2016 -0500
+
+    Adds basic multiple file support
+
+commit 7d8a14773d67d8f6f77e9afc8cc7eaddbd0456e1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 14 14:32:31 2016 -0500
+
+    Added Django compatible authentication
+
+commit db13d80c74e5f3fb86525368cb846381dc8d7664
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 14 14:18:38 2016 -0500
+
+    Upload button
+
+commit 9c6c412fd3d38477266a4af1c53cecc27b6bdb77
+Merge: 7c58814 4b48cf0
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:12:29 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 7c588145f63302e4792fd7d6333022a8c701df54
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 14 14:12:15 2016 -0500
+
+    Added button for messages
+
+commit 4b48cf098d1609409f0d54a91dd902362c709f72
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 14 14:02:34 2016 -0500
+
+    small change to base
+
+commit 88472ec0c8c71465233c2b7baf4ef2f38f29a52a
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 14 13:49:58 2016 -0500
+
+    work on messaging
+
+commit 50b7920be3efc82b77e193aa6bf94923e03a1d47
+Merge: 163ac61 871c47b
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 14 13:40:42 2016 -0500
+
+    Fixed base
+
+commit 871c47bc7bec17dd1aca2d41cedf59783e4f29f1
+Author: bgreenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 14 13:39:44 2016 -0500
+
+    Delete base.html
+    
+    Hopefully fix base.html
+
+commit 163ac617a69bd34dbdeb5547d5b62ae42aecd0c6
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 14 13:37:07 2016 -0500
+
+    Fix based hopefully
+
+commit f9196c96406ae151bb8d4fedab63e41882b3d734
+Merge: 89463cb 943105d
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 14 13:26:29 2016 -0500
+
+    messages added
+
+commit 89463cb14147fb5508db52781ffa19a92124e9ad
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 14 13:18:49 2016 -0500
+
+    basic messaging added
+
+commit 943105db275be1b5a868b0da8cf5ad1ae74ecec1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 14 11:59:29 2016 -0500
+
+    Ignores ALL migrations
+
+commit 80fe63b32723622f147fe285a90e96ecafb2ad71
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Nov 13 17:30:53 2016 -0500
+
+    View files in report
+
+commit 2e981d2d54faca59c3a3f4a88b07a5376581a75c
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Nov 13 17:04:10 2016 -0500
+
+    Files can now be uploaded with reports
+
+commit d8242045f401a766c8fa9b0d58a53e4e115e085e
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Nov 13 17:01:21 2016 -0500
+
+    Add more formatting to reports page
+
+commit 76bf91d421d94f9f97901e99401d74dce51b98b0
+Merge: 52e279d fd97ff5
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Nov 13 16:07:05 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 52e279d4c715e47a7cbede8e049318e449e388bb
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Nov 13 16:06:48 2016 -0500
+
+    Changed nav buttons to dropdown
+
+commit fd97ff50792927919cf34276d0a52f22faca3818
+Merge: fbc9c77 71e3885
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Sun Nov 13 15:22:19 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit fbc9c77706125eb4e6bc917667e8aa875bdca56a
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Sun Nov 13 15:21:30 2016 -0500
+
+    ignore my database migrations
+
+commit 71e3885f8b538b5822cd4e711fa4bc9cac7926ae
+Merge: 26e31e9 a1a6a20
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 13 15:20:03 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 26e31e9acda43c71ac6581696cbc61255e2506d8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 13 15:19:37 2016 -0500
+
+    Validation for viewing page
+
+commit a1a6a20fb3ec421c88d051192b454ed494c76aed
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Nov 13 15:17:09 2016 -0500
+
+    Fix some register form styling
+
+commit c01e6c28f30ca611c94f840c02f63dbbd733b8e4
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 13 13:43:06 2016 -0500
+
+    Ignored migrations
+
+commit 880b93ba4eea66910c44a9c690994ac412f1ac22
+Merge: f3b3c04 a1fbf6e
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 13 11:05:46 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit f3b3c04e7e620917f0ea9e6e80b04b34f0202caf
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 13 11:05:12 2016 -0500
+
+    Basic my_reports viewing
+
+commit a1fbf6e8275a54114b5a074a6454bc3742f6689f
+Merge: 2ecf735 9e98dac
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Nov 12 22:46:36 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 2ecf735b57f81a6329d60d438dfe7f1d127d46bd
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sat Nov 12 22:44:01 2016 -0500
+
+    Added FDA authentication (basic)
+
+commit 9e98dace4d23ab70e5880302e5453edb1e12f949
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 12 17:32:05 2016 -0500
+
+    Single report views and public report browsing
+
+commit a629cf3815db44d7e780048f9cb2cb64c015b38d
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Nov 11 22:10:49 2016 -0500
+
+    Updated report creation form
+
+commit fc2422ecdccefffc003ff30be4491e5c57ef6a21
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Nov 11 14:53:36 2016 -0500
+
+    Reports have owner
+
+commit 038178b38651a4b0df109d9c1e0c3adfe48fa21e
+Merge: f5595ce dab0efa
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Nov 11 12:33:19 2016 -0500
+
+    Fixed merge with owner/DELETE ALL MIGRATIONS IN FILEUPLOAD TO MAKE WORK
+
+commit dab0efa07daa40c96ffdfce4e4e67bd58df2c725
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Fri Nov 11 12:13:05 2016 -0500
+
+    Fixed migration issues
+
+commit f5595ce26d384bec7f8c82347d4a5852105791ff
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Fri Nov 11 12:05:00 2016 -0500
+
+    MErge fix:
+
+commit ce11956e01a4ec1cf969912d81d5ab05dc711f15
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Nov 10 15:08:40 2016 -0500
+
+    Basic superuser with suspension capabilities
+
+commit cd76e8aa192134344d58fd43e730577b0c468960
+Merge: 2dd93e2 2f7c640
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Thu Nov 10 14:11:31 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 2dd93e2d8c81051a8d6cd3d0d9c3255ebea76130
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Thu Nov 10 14:09:28 2016 -0500
+
+    Modified the Report model (broken)
+
+commit 2f7c6401adb04f435e035328c45e4024730a123c
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 9 23:12:44 2016 -0500
+
+    minor refractor, basic user profile
+
+commit 9635be4a70f43294bf275f1847d7467e1f247022
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 9 19:42:31 2016 -0500
+
+    Fixed template mod
+
+commit 7dfabc08d48bb7ebb2a10f100f6b86be1f4731b1
+Merge: 59e107d dd795d5
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 9 19:30:17 2016 -0500
+
+    Merge resolve
+
+commit 59e107d50d6a76f43971666997919c8e987ac51d
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Wed Nov 9 19:26:14 2016 -0500
+
+    Tempalte changes
+
+commit dd795d5ca3efb65b8099ef2cb10b596d2b31fd8c
+Merge: 816fd29 fc3798a
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 15:17:42 2016 -0500
+
+    resolve conflicts to base
+
+commit 816fd294c3f0d43c8251facf0cb3d0b55368868f
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 15:15:56 2016 -0500
+
+    Add messages tab
+
+commit fc3798acc572c8e0809b26aabd695f91adc4dcbf
+Merge: fdf9bb5 557cf4a
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 7 15:07:36 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit fdf9bb5faaad82f7c996263ad4f1eb290b91d722
+Merge: 9f64e36 f783ae8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 7 15:06:56 2016 -0500
+
+    Fixed report creation
+
+commit 557cf4ae4fb9c699b6765e56ed41187482ea3a9d
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 15:02:47 2016 -0500
+
+    Undid wrong-doing removing fileupload from URLS
+
+commit 9f64e3674baddf5c662454532f8699de7fb1c774
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 7 15:02:34 2016 -0500
+
+    Report saves to backend
+
+commit f783ae88ec13c8f9e619eb3d55737d10f2df65c7
+Merge: 8ec660b 7e621b8
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 15:01:48 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 8ec660b28c6b25921f2d689e13cc3b67e75dc6eb
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 15:01:08 2016 -0500
+
+    Added IV
+
+commit 3a5084e6b14509caa1439408b864db70b5f4e259
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 15:00:33 2016 -0500
+
+    Removed fileupload from URLS
+
+commit 2d5e1825e29fa8560cae5809c6ffda0f3b9228cf
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 14:46:42 2016 -0500
+
+    Added support for a new IV
+
+commit 7e621b837c5c61cbc91410cfed71272434a54a43
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:42:58 2016 -0500
+
+    Fix Procfile
+
+commit 4967f0adcd7476e1f99a3264e2d830ac78739755
+Merge: db27352 ba50cca
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:39:03 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit db27352e9ec457997b41076f5dc45545c9458216
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:38:50 2016 -0500
+
+    Add style to register success page
+
+commit ba50ccaf9e734d1c37cf640b21108887ff4507d4
+Merge: 84ae033 167b828
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 14:38:00 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 84ae033269786a96dea10f727d74c9609eb523e8
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 14:37:20 2016 -0500
+
+    Added support for custom keys
+
+commit 167b828d345b440226f1908cd795bf1e260f9779
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:32:42 2016 -0500
+
+    Comment out additional register form in code
+
+commit 505a77893ee4ef12b2e0c1f7b25caab05723300f
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:28:50 2016 -0500
+
+    Additional formatting to register and other forms
+
+commit 49ab861bab48c0df7318559309c59e75a765d39f
+Merge: 6700f09 92d8b11
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:28:12 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 6700f09879b9d4d98828956f8eefabc07c0d472d
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 14:28:02 2016 -0500
+
+    Group names only contain letters check
+
+commit 92d8b11b71de0e8540dc662388bc6d59777a40a1
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 14:09:30 2016 -0500
+
+    Added encryption signature to file.
+
+commit 250ea9033130f41dda07806af3155c751bdf0a4c
+Merge: a022b6c bc3b9d4
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 7 13:47:52 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit a022b6c72cffab929142ff7e7a2372350c1b8119
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 7 13:47:28 2016 -0500
+
+    fixed ReportForm bug
+
+commit bc3b9d408a828cb01e6e6bde0764a66b0c4d3dd0
+Merge: c02614a 0ab22f8
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 13:39:26 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit c02614a9acbd220bec51ab4de8c96a1067543c1b
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 13:38:59 2016 -0500
+
+    Add style to content and forms
+
+commit 0ab22f890711589cea8c997298097b1ce3e07b33
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Nov 7 13:37:27 2016 -0500
+
+    view_report and create_report front end
+
+commit d777a39ebc99600acbc3f636ef3407df8be53d98
+Merge: 21af653 3122566
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 7 13:02:46 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 21af65302e813df1bd9251b2dc7dc93fb3ad0893
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Nov 7 13:02:38 2016 -0500
+
+    Header bug fixed
+
+commit 3122566cfaab9f64e44e391ae2126afadbaa6e9c
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Nov 7 12:59:05 2016 -0500
+
+    Added to credits comment.
+
+commit aec06824e741d6c98451de39f9177639a269c236
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Nov 7 12:40:34 2016 -0500
+
+    Add style to base
+
+commit d7e1f658154fa3128baa145de8cf35cc684a6467
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 6 18:41:36 2016 -0500
+
+    Register routing bug fixed
+
+commit 8b9a934c100a775b7ea09d6f56b6513ec17fc20a
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Nov 6 16:34:13 2016 -0500
+
+    Save changes
+
+commit 8e010fd855fe29bd1802f4b8af5983e967ee20e5
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Nov 6 12:40:19 2016 -0500
+
+    Added public and private keys to User_Profile model
+
+commit b78904ad06eaea64c750f470d00e624a6c46d12f
+Merge: 6e7623d 434c956
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 6 12:39:01 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 6e7623d881b336258204a9b1d507df1fe5b2f9f8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 6 12:38:13 2016 -0500
+
+    User can add others to groups
+
+commit 434c9566c3e5dea2a2db2a566b9f5b92d8d70df2
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Nov 6 12:30:37 2016 -0500
+
+    Removed unorthodox User model, added User_Profile model
+
+commit e5e25227c30936d17053ca117836adacce36401e
+Merge: 373dbbf b7dbb41
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 6 12:02:10 2016 -0500
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 373dbbf8e3541db7a2ec4ecd3973d38c1bd1af8f
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sun Nov 6 12:01:28 2016 -0500
+
+    Add user to group when created
+
+commit b7dbb41888a0cae1666057612c35f068e0dc62d6
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Nov 6 11:51:35 2016 -0500
+
+    Finished file encryption
+
+commit 8089bbbe5c7048c372c5882e09c63d95b6df3199
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Nov 6 09:43:25 2016 -0500
+
+    Deleted unnecessary file
+
+commit 1f6b6b6ba9f179f64b47d163c4010a6fcd3d8675
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Nov 6 09:41:41 2016 -0500
+
+    Continued to work on file encryption
+
+commit 48ba7b6e7b3288760e6b9cb3c41be7666390cad2
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 5 22:44:47 2016 -0400
+
+    Added details page for groups
+
+commit cb80cec0d3f865b6ef7e6404c815d730dca1f5f1
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Sat Nov 5 18:16:42 2016 -0400
+
+    User can create groups
+
+commit edb118925380b78cf84ca91b03fcab4f40e0fda0
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Thu Nov 3 22:38:34 2016 -0400
+
+    Users can now see what groups they are in
+
+commit fa2714e4b089bfb9cb58c38eac5346804eb66429
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 1 14:56:36 2016 -0400
+
+    Routing fixed for login
+
+commit b92e9fa8b13a8516d0b8e004c8b26938c7275640
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 1 09:26:09 2016 -0400
+
+    Fixed routing issue for login/register
+
+commit a8f66ffd75200e27f4cf4e83a04a9cffd0e3e6c8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Nov 1 09:17:35 2016 -0400
+
+    Changed register/login, still have routing bug
+
+commit ab2c1a3c8f27244c2b42d61c37300215b5d5b096
+Merge: 3a4bff5 db455e8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Oct 31 14:32:50 2016 -0400
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 3a4bff578aa525d92284d8a2a0370f57ddc6e3b8
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Oct 31 14:32:10 2016 -0400
+
+    Login bug fixed
+
+commit db455e89b54531edea4844bb9c7af1ecb3ce3c7d
+Merge: 4b2e2d3 d3c2597
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 31 14:02:03 2016 -0400
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 4b2e2d3326f8dfabc7c6d9c4f0c8a6d5fa52af90
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 31 14:01:20 2016 -0400
+
+    Added encryption (no decryption yet) to FDA
+
+commit d3c25978fcaf5ffffe88ea6d54a027d349b4a49b
+Author: tre7ca <tre7ca@virginia.edu>
+Date:   Mon Oct 31 13:36:29 2016 -0400
+
+    generated view report and create report templates
+
+commit ace4c747f056c8babd0e344be8bd85602f2b8609
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Oct 31 13:00:00 2016 -0400
+
+    Added report model
+
+commit cd0b3af7c6d7cb06cda84fd088866312d6c175c5
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Oct 31 12:28:30 2016 -0400
+
+    Reroute index
+
+commit 4a2b09f276699e047631488a443d65d663f8c1e4
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Mon Oct 31 09:59:05 2016 -0400
+
+    Simple user registration/login
+
+commit b4d028a9b21f794e18eefc1688a5a2b230ad306d
+Merge: 143c24b 7f0b271
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Oct 30 20:13:19 2016 -0400
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit 143c24b39d5d146bea482d4fa87c6135db6d5df0
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Oct 30 20:12:27 2016 -0400
+
+    Basic, basic implementation of the FDA
+
+commit 7f0b2714d1dac12c0864d61203976fe33e16ab6e
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Oct 24 15:20:20 2016 -0400
+
+    Start initial page config
+
+commit d3d4eaa165a885d1a61d0522187d2d90946ec1e9
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Oct 24 15:10:38 2016 -0400
+
+    Add index.html
+
+commit 3a49bc15425453d165aa436808a05c4848425d6e
+Author: Dan <ds5ct@virginia.edu>
+Date:   Mon Oct 24 15:01:51 2016 -0400
+
+    Sync up heroku
+
+commit b1ff776ce80efb16003f0a2cf6bd49234c1595dc
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 24 11:17:08 2016 -0400
+
+    Added the file upload capabilities (based on in-class Heroku sample)
+
+commit 2a47531b450f742c1c02123a8efbd7486f6d9043
+Merge: ba35868 c4c1e50
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Oct 23 17:50:27 2016 -0400
+
+    Merge branch 'master' of https://github.com/lat9nq/cs3240-f16-team07-project
+
+commit ba35868a9ddb16c0531360f927a8faef46bd5914
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Oct 23 17:49:40 2016 -0400
+
+    Added the fileupload app
+
+commit c4c1e501795aa7a24cf28377f5e13c10c6c53151
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Oct 23 17:37:04 2016 -0400
+
+    Updated Heroku configurations
+
+commit 052d8ce31749045f76d98ea5677504516eba198e
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Oct 23 17:05:54 2016 -0400
+
+    Begin configuration for Heroku
+
+commit d04c0b54c288f87ffcce02b2b0b094d9c3402949
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Oct 23 16:28:05 2016 -0400
+
+    Configure heroku
+
+commit d42fdf2a40f84c303be5ffcdef98d1099711c4a9
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Oct 23 16:22:24 2016 -0400
+
+    Configure Heroku
+
+commit 83aeacd3d338dbfaebc9e0f0446b795fc81e010e
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Oct 23 16:21:11 2016 -0400
+
+    Configure heroku
+
+commit 8c58df2db6d67f9db29ea3253a1db489b66b2363
+Author: Dan <ds5ct@virginia.edu>
+Date:   Sun Oct 23 16:05:41 2016 -0400
+
+    Configure heroku
+
+commit df5e27ec9644f4a85864b335343f090ab1324b3f
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Sun Oct 23 15:40:46 2016 -0400
+
+    Moved everything in SecureFileShare down to use Heroku later
+
+commit 692de0b72825080a55d8d0c141b7934c6e80ce48
+Author: Ben Greenawald <bgreenawald@gmail.com>
+Date:   Tue Oct 18 21:02:33 2016 -0400
+
+    Mergetool test
+
+commit 006af79f9de102f87a336945fe67c33b85946a21
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 17 19:57:26 2016 -0400
+
+    Added the User model and the signup app
+
+commit 0b0726babb82e2d76b8bed53adb1d50ef5c0d4f0
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 17 16:30:51 2016 -0400
+
+    Started Django code
+
+commit 51fe56c50675e9dfc116c9d5897d3c2927f8215a
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 17 14:06:43 2016 -0400
+
+    Update README.md
+
+commit 97e8294d8692a130e11224ade86884ddf717688a
+Author: lat9nq <lat9nq@virginia.edu>
+Date:   Mon Oct 17 14:05:19 2016 -0400
+
+    Initial commit

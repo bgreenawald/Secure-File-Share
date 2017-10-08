@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}FAQ{% endblock %}
+
+{% block register %}
+
+<h3>While we strive to offer the most intuitive, easy to use program possible, sometimes our efforts come up short. This page is designed to help answer questions about the site and improve overall user experience</h3>
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo">What are groups and how do I use them?</button><br>
+<div id="demo" class="collapse">
+<p>The primary goal of groups is to expedite the sharing of information. Instead of sharing reports or sending messages to just one person, you can create custom groups
+and add all of your friends to the groups, allowing you to share things with an entire group of people at once.</p>
+<p>Using groups is simple. Navigate to the 'Make new group' page and enter the name of your group in the form. As long as a group with that name doesn't already exist, you're good to go!
+Once you have your group created, go to the 'View my groups', click on the group you just made, and you can start adding users by username. You can add users in this manner to any group that you are apart of!</p>
+<p>Whenever you make a message, you will have the option on the message creation screen to send the message to a group. After you have created a report, you will have the option to share that report with a group.</p>
+<p>Two groups exist by default in the application. 'manager' contains the users that have special site manager access. 'suspended' contains a group of users who accounts have been suspeneded. 
+</div>
+<br>
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo2">What is the report creation process like?</button><br>
+<div id="demo2" class="collapse">
+<p>Simple! Just go to the 'Reports' section in your navbar and then create a report. You then assign a title and description to the report, and choose whether of not the report is public or private. Public reports can be seen by anyone on the site, while private reports are viewable only to you, site managers, and members of groups that you share the report with. The owner of a report can also edit a report later (site managers also have this capability). You can also easily attach files to your reports. Regular files can be added via the first form field, and files that you have already encrypted. Unencrypted files can be downloaded via the site while encrypted files can only be downloaded via the FDA.</p>
+</div>
+<br>
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo3">Are my messages secure?</button><br>
+<div id="demo3" class="collapse">
+<p>Private messages you send on the site are extremely secure. Private messages are available only to their intended recipients, not even site managers can access them. For even more security, you can choose to encrypt the messages. Encrypted messages will be encrypted using the recipients public key before being saved. The recipient can then use the private key that they were given upon registration to decrypt it. The website does not store a user's private key, so not even the creators of the site can see private messages that have been encrypted, only the recipient can.</p>
+</div>
+<br>
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo4">I lost my private key, what do I do??</button><br>
+<div id="demo4" class="collapse">
+<p>Under the 'Help' dropdown menu, there is an option to generate a new public/private key pair for your account. This does have some slight ramifications. Any messages or files that were encrypted with your old key will become obsolete and messages that have been previously encrypted will be automatically moved to the trash. While this is a slight inconvenience, it helps gaurantee that our users have the most secure experience possible.</p>
+</div>
+<br>
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo5">What is the FDA?</button><br>
+<div id="demo5" class="collapse">
+<p>The FDA, or file download application, is a standalone application that runs on your local computer. The FDA allows you to see all reports that you have access to and download files from those reports, even if they are encrypted. The FDA will automatically decrypt files that have been encrypted IF you were the specified targer for the file encryption. In terms of using the FDA, the program has a great help section to get you started!</p>
+</div><br>
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo6">How do I browse my reports?</button><br>
+<div id="demo6" class="collapse">
+<p>There are two options to look through your reports. The first is to go to the "Reports" section in the navbar and select 'My Reports'. This will bring up your report homepage with three columns. The first column contains reports that you have authored. The second column contains reports that have been shared with you via groups. The third column is your folders column where you can interact with your folders.</p>
+<p>The second method is by going to 'Browse Reports' under the 'Reports' header. This will bring you to a section containing all reports that are available to you. This include reports you own, reports that have been shared with you, and public reports on the site. Reports in this list are searchable by a number of criteria and can be sorted as well.
+</div>
+
+{% endblock %}

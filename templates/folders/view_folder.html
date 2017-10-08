@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}View Folder{% endblock %}
+
+{% block register %}
+  <h2>View Folder</h2>
+  <body>
+  <center>
+  <table class="table">
+  <tbody>
+    <tr>
+      <td class="row-key"><p>Folder Name:</p></td>
+      <td class="row-val"><p>{{folder.name}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Folder Owner:</p></td>
+      <td class="row-val"><p>{{owner.username}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Reports:</p></td>
+      <td class="row-val">
+           {% if folder.reports.all|length > 0 %}
+             {% for report in folder.reports.all %}
+                 <p><a href="#">{{ report.short_description }}</a></p>
+             {% endfor %}
+         {% else %}
+             <p class="error">No reports in folder!</p>
+         {% endif %}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <center>
+
+  </body>
+
+  {% if is_owner or is_manager%}
+ 
+  <h2>Add report to this folder!</h2>
+  {{message}}
+  	<form action="#" method="POST">{% csrf_token %}
+	  	<label for="folder_name">Folder Name:</label>
+	  	<input type="text" name="folder_name" value="" id="folder_name" class="input">
+
+	  	<input type="submit" value="Add" class="submit" />
+ 	 </form>
+
+ 	 <a href="#">Delete this folder</a><br>
+ 	 <a href="#">Edit this folder</a>
+  {% endif %}
+
+  
+{% endblock %}

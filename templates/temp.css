@@ -1,0 +1,239 @@
+ <style type="text/css">
+    * {
+      text-align: center;
+      font-family: "Trebuchet MS";
+    }
+    .jumbotron {
+      background-color: white;
+    }
+    p {
+      color: #295ee5;
+    }
+    h1 {
+      color: #295ee5;
+      font-size: 32pt;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 26pt;
+      color: #c68a2f;
+      font-weight: bold;
+    }
+    h4 {
+      font-size: 18pt;
+      color: #c68a2f;
+    }
+    ul {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0;
+    }
+    li {
+      display: inline;
+      padding: 0;
+      margin: 0;
+    }
+    a, .btn {
+      padding: 10px 5px;
+      background-color: #a5b0ce;
+      color: #295ee5;
+      margin: 5px;
+      border: 2px solid #295ee5;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    a:hover, .btn:hover {
+      text-decoration: none;
+      background-color: #a1d1c9;
+    }
+    #home {
+      border: none;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+    #home > h1:hover {
+      color: #a1d1c9;
+    }
+    form {
+      text-align: center;
+    }
+    label {
+      color: #c68a2f;
+      margin: 10px 0;
+    }
+    table {
+      width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+    th {
+      text-align: center;
+    }
+
+    #upload {
+      margin: auto;
+    }
+    #upload::-webkit-file-upload-button {
+      border: 2px solid #c68a2f;
+      border-radius: 5px;
+      background-color: #dbc5a4;
+      color: black;
+      cursor: pointer;
+    }
+    .input, input[type="text"], input[type="password"], textarea {
+      margin: 10px 0;
+      border: 2px solid #c68a2f;
+      border-radius: 3px;
+      background-color: #dbc5a4; 
+      text-align: left;
+    }
+    .input:focus, input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+      background-color: #a1d1c9;
+    }
+    .submit, input[type="submit"] {
+      border: 2px solid #c68a2f;
+      border-radius: 5px;
+      background-color: #dbc5a4;
+      color: black;
+      text-align: center;
+    }
+    .submit:hover, input[type="submit"]:hover {
+      background-color: #a1d1c9;
+    }
+    .error {
+      color: red;
+      font-style: italic;
+    }
+    .success {
+      color: green;
+      font-style: italic;
+    }
+    .flright {
+      float: right;
+    }
+    .flleft {
+      float: left;
+    }
+
+    .dropbtn {
+      cursor: pointer;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      border: none;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a {
+      text-decoration: none;
+      display: block;
+      color: black;
+      padding: 12px 16px;
+    }
+    .dropdown-content a:hover {
+      background-color: #a1d1c9;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #a1d1c9;
+    }
+
+    #report-table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 600px;
+      text-align: center;
+    }
+    #report-table td {
+      border: 1px solid black;
+    }
+    .row-key {
+      width: 100px;
+      font-weight: bold;
+    }
+    .row-val {
+      width: 100px;
+    }
+  </style>
+
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Groups <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                   <li><a href="#">Action</a></li>
+                   <li><a href="#">Another action</a></li>
+                   <li><a href="#">Something else here</a></li>
+                   <li role="separator" class="divider"></li>
+                   <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+              
+                </ul>
+              </li>
+
+               <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{% url 'fileupload:create_report' %}">Create a report</a></li>
+                  <li><a href="{% url 'fileupload:browse' %}">Browse Reports</a></li>
+                  <li><a href="{% url 'fileupload:my_reports' %}">My reports</a></li>
+                </ul>
+              </li>
+
+               <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Messages<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{% url 'fileupload:inbox' %}">Inbox</a></li>
+                  <li><a href="{% url 'fileupload:create_message' %}">Create Message</a></li>
+                </ul>
+              </li>
+              <li><a href="{% url 'signup:logout' %}">Logout</a></li>
+                 <li><a href="{% url 'groups:my_groups' %}">View my groups</a></li>
+                 <li><a href="{% url 'groups:make_group' %}">Make new groups</a></li>
+            </ul>
+    
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>

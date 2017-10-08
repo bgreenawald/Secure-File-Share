@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+<h2>My reports</h2>
+{% block register %}
+	<h1>Inbox</h1>
+<<<<<<< HEAD
+	
+	<div class="table-responsive">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th>Description</th>
+			<th>Sender</th>
+			<th>Date Sent</th>
+			<th>Status</th>
+			<th>Delete?</th>
+		
+			
+		</tr>
+		<form action='' method='POST'>{% csrf_token %}
+		{% for message, sender in message_info %}
+			<tr>
+				<td class="row-key"><p><a href="{% url 'fileupload:view_message' message.message_id %}">{{message.subject}}</a></p></td>
+				<td class="row-val"><p><a href="{% url 'signup:user_details' sender %}">{{sender}}</a></p></td>
+				<td class="row-val">{{message.timestamp}}</td>
+			
+				{% if message.is_viewed %}
+					<td class="row-val">Read</td>
+				{% else %}					
+					<td class="row-val"><strong>Unread</strong></td>
+				{% endif %}
+				
+				<td class="row-val"><input type='checkbox' name='checks' value={{report.report_id}}></td>
+			</tr>
+		{% endfor %}
+		</form>
+	</table>
+</div>
+=======
+	<ul class="list-group">
+	{% for message in inbox %}
+		<li class="list-group-item"><a href="{% url 'fileupload:view_message' message.message_id %}">{{message.subject}}</a></li>
+	{% endfor %}
+	</ul>
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %} Manager {% endblock %}
+{% block register %}
+	<h1>Users</h1>
+	
+	<form class="form-horizontal" role="form" action='' method="POST">{% csrf_token %}
+	<br>
+		<div class="form-group">
+		Username: <input class="form-control" type="text" name="short_desc" id="short_desc" value={{name}} >
+		</div>
+		<input type='submit' class="btn btn-primary">
+	</form>
+	<br>
+
+	<div class="table-responsive">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th>Username</th>
+			<th>Is Suspended?</th>
+			<th>Is a manager?</th>		
+		</tr>
+
+		{% for usr, suspended, manager in user_info %}
+			<tr>
+				<td class="row-key"><p><a href="{% url 'signup:user_details' usr.username %}">{{usr.username}}</a></p></td>
+				<td class="row-val"><p>{{suspended}}</p></td>
+				<td class="row-val">{{manager}}</td>
+		
+			</tr>
+		{% endfor %}
+       
+	</table>
+</div>
+
+{% endblock %}

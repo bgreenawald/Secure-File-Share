@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+<h2>My reports</h2>
+{% block register %}
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+				<form action='' method="POST">{% csrf_token %}
+				<h4>Reports I own: </h4>
+				<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Short Description</th>
+						<th>Delete?</th>
+						<th>Add to folder?</th>
+					</tr>
+				</thead>
+				{% for report in my_reports %}
+				<tr>
+					<td><a href="{% url 'fileupload:view_report' report.report_id %}">{{report.short_description}}</a></td> 
+					<td><input type='checkbox' name='checks' value={{report.report_id}}></td>
+					<td><input type="checkbox" name='checks2' value={{report.report_id}}></td>
+				</tr>
+				{% endfor %}
+				
+
+				</table>
+				</div>
+			<div class="col-lg-4 col-md-4">
+				<h4>Reports shared with me: </h4>
+				<table class = "table table-bordered">
+					<tr>
+						<th>Report Description</th>
+						<th>Group Associated</th>
+						<th>Add to folder?</th>
+					</tr>
+					{% for i,j in reports %}
+						<tr>
+							<td><a href="{% url 'fileupload:view_report' i.report_id %}">{{i.short_description}}</a></td>
+							<td><a href="{% url 'groups:details' j %}">{{j}}</a></td>
+							<td><input type='checkbox' name='checks3' value={{i.report_id}}></td>
+
+						</tr>
+					{% endfor %}
+				</table>
+				Which folder to add too?
+				<select class="form-control" name="value2">
+					<option selected="selected" disabled></option>
+		    		{% for folder in folders %}
+						<option value={{folder.name}}>{{folder.name}}</option>
+					{% endfor %}	
+				 </select>
+				 <br>
+				<input class="btn btn-primary" type='submit' value="Update">
+			</form>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<h4>My folders</h4>
+
+				{% for folder in folders %}
+					<button class="btn btn-default" data-toggle="collapse" data-target="#{{folder.name}}">{{folder.name}}</button>
+					<a href="{% url 'fileupload:edit_folder' folder.folder_id %}"><span class="glyphicon glyphicon-list-alt"></span></a>
+					<br>
+					<div id="{{folder.name}}" class="collapse">
+					<ul class="list-group">
+					{% for report in folder.reports.all %}
+						<li class="list-group-item"><a href="{% url 'fileupload:view_report' report.report_id %}">{{report.short_description}}</a></li>
+					{% endfor %}
+					</ul>
+					</div>
+					<br>
+				{% endfor %}
+
+
+
+				<a href="{% url 'fileupload:create_folder' %}"><button class="btn btn-primary">Create a new folder</button></a>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

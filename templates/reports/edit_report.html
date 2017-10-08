@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit Report{% endblock %}
+
+{% block register %}
+
+	<h2>Edit Report</h2>
+	<form  action="" class='form-horizontal' method="POST" enctype="multipart/form-data">{% csrf_token %}
+		<fiv class="form-group">
+		Short Description: <input id="short_desc" type="text" name="short_desc" label="Short Description" value="{{short_desc}}" ><br>
+		</fiv>
+		<div class="form-group">
+		Long Desciption: <textarea id="long_desc" type="text" name="long_desc" label = "Long Description">{{long_desc}}</textarea><br>
+		</div>
+		<h3>Files:</h3>
+		{% for file in files %}
+			{% if not file.is_encrypted %}
+				<p><a href="{{ file.afile.url }}">{{ file.filename }}</a></p>
+			{% else %}
+				<p>{{ file.filename }}</p>
+			{% endif %}
+			Delete: <input type="checkbox" name="checks" value={{file.file_id}}>
+			<br>
+		{% endfor %}
+		<br>
+		<h3>Enter regular files</h3>
+		<div class="form-group">
+		<input id="upload" type='file' name="upload" multiple>
+		</div>
+		</p>
+		<div class="form-group">
+		<h3>Enter encrypted files</h3>
+		<input id="upload_enc" type='file' name="upload_enc" multiple>
+		</div>
+		<br>
+		<input type='submit' value="Submit">
+	</form>	
+
+{% endblock %}

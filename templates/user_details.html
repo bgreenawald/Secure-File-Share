@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block register %}
+	
+	<h2><strong><italic>{{group_error_message}}</italic></strong></h2>
+	
+
+	
+	<h3>{{second_user.username}}</h3>
+	<div class="container">
+	<h4>Groups this user is in:</h4>
+	<ul class="list-group">
+	{% for group in second_user.groups.all %}
+		<li class="list-group-item"><a href="{% url 'groups:details' group.name %}">{{group.name}}</a></li>
+	{% endfor %}
+	</ul>
+	</div>
+
+{% endblock %}
+
+{%block details %}
+	
+
+<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+			{% if manager in user.groups.all and not is_suspended%}
+
+				<h4>Would you like to suspend this user?</h4>
+
+				<form action="{% url 'signup:user_details' second_user.username %}" method="post">{% csrf_token %}
+				  	<input class='btn btn-danger' id="suspend-btn" type="submit" value="Suspend" name="submit" />
+				</form>
+
+			{% elif manager in user.groups.all and is_suspended %}
+				<h4>This user is suspended, would you like to restore their access?</h4>
+				<form action="{% url 'signup:user_details' second_user.username %}" method="post">{% csrf_token %}
+				  	<input class='btn btn-success' id="restore-btn" type="submit" value="Restore" name="submit" />
+				</form>
+			{% endif %}
+		</div>
+			<div class="col-lg-4 col-md-4">
+				{% if manager in user.groups.all %}
+					<h4>Add the user to a group</h4>
+					<form action="{% url 'signup:user_details' second_user.username%}" method="post">{% csrf_token %}
+						<input type='text' label='Group name' name='group' id='group'/><br>
+						<input class="btn btn-primary" type='submit' value='Add' id='add_btn' name='submit'/>
+					</form><br>
+				<a href="{% url 'fileupload:user_reports' second_user.id%}"><button class="btn btn-primary">See reports for this user</button></a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<h4>Remove the user from a group</h4>
+					<form action="{% url 'signup:user_details' second_user.username%}" method="post">{% csrf_token %}
+						<input type='text' label='Group name' name='group' id='group'/><br>
+						<input class="btn btn-warning" type='submit' value='Remove' id='remove_btn' name='submit'/>
+					</form><br>
+				</div>
+					<br>
+					<br>
+				{% endif %}
+
+{% endblock %}

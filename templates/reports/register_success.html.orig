@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+{% extends 'base.html' %}
+
+{% block register %}
+
+	<h2 class="success">You have registered!</h2>
+    	<p>In order to decrypt messages sent to you, you will need to keep a user specific private key</p>
+      <p>Your private key has been saved to {{path}} in a file called {{filename}}</p>
+            
+=======
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}SafeCollab{% endblock %}</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <style type="text/css">
+    * {
+      text-align: center;
+      font-family: "Trebuchet MS";
+    }
+    h2 {
+      font-size: 26pt;
+      color: #c68a2f;
+      font-weight: bold;
+    }
+    a {
+      padding: 10px 5px;
+      background-color: #a5b0ce;
+      color: #295ee5;
+      margin: 5px;
+      border: 2px solid #295ee5;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    a:hover {
+      text-decoration: none;
+      background-color: #a1d1c9;
+    }
+    .success {
+      color: green;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+{% block content %}
+
+	<h2 class="success">You have registered!</h2>
+    	<h2 class="success">Your private key is:</h2>
+            <p><{{private_key}}</p>
+            <p>Save this key somewhere you can access it for file and message decryption</p>
+>>>>>>> 182046a0abb36ee486342abb58c4258a9e45291b
+
+	<a href="{% url 'signup:login' %}">Login</a>
+
+{% endblock %}

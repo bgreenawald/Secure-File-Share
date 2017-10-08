@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+<h2>Sent</h2>
+{% block register %}
+	<h1>Sent</h1>
+
+	<div class="table-responsive">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th>Description</th>
+			<th>Sender</th>
+			<th>Date Sent</th>
+
+
+		</tr>
+		{% for message, receiver in message_info %}
+			<tr>
+				<td class="row-key"><p><a href="{% url 'fileupload:view_message' message.message_id %}">{{message.subject}}</a></p></td>
+				<td class="row-val"><p><a href="{% url 'signup:user_details' receiver %}">{{receiver}}</a></p></td>
+				<td class="row-val">{{message.timestamp}}</td>
+
+			</tr>
+		{% endfor %}<br><br>
+	</table>
+</div>
+
+{% endblock %}

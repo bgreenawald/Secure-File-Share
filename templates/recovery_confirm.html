@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Confirmation{% endblock %}
+
+{% block register %}
+	<h2 class="success">You have reset your public/private key!</h2>
+    	<p>In order to decrypt messages sent to you, you will need to keep a user specific private key</p>
+<!--
+      <p>Your private key has been saved to {{path}} in a file called {{filename}}</p>
+-->
+	<p>
+		Your private key is important! Copy and save it to a text file now!
+	</p>
+	<textarea style="font-family: monospace" rows="27" cols="76" readonly>{{private_key}}</textarea>
+{% endblock %}

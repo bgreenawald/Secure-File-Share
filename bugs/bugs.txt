@@ -1,0 +1,8 @@
+    done    increase text area width -louis
+    done    edit report does not display file name -louis
+done delete is not deleting from browse reports -ben
+done default ordering of browse reports is not chronological -ben
+done cannot add report from owned reports -- works with shared -ben
+    done    edit folder has same issue as edit report -louis
+Message was sent a second time; noted after replying with encrypted -first come first serve
+done Inbox/Trash does not show manager tab -ben

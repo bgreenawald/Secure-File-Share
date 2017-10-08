@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block register %}
+	<h2 class="success">{{group_success}}</h2>
+	<h4>Groups</h4>	
+	<ul>
+		<li><a href="{% url 'groups:my_groups' %}">View my groups</a></li>
+		<li><a href="{% url 'groups:make_group' %}">Make a new group</a></li>
+	</ul>
+
+{% endblock %}

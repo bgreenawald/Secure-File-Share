@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block title %}View Message{% endblock %}
+
+{% block register %}
+  <h2>View Message</h2>
+<<<<<<< HEAD
+<div class="table-responsive">
+  <table class="table table-bordered">
+=======
+  <body>
+  <table id="message-table">
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+    <tr>
+      <td class="row-key"><p>Subject:</p></td>
+      <td class="row-val"><p>{{message.subject}}</p></td>
+    </tr>
+    <tr>
+<<<<<<< HEAD
+      <td>Content:</td>
+      <td>{{content}}</td>
+=======
+      <td class="row-key"><p>Content:</p></td>
+      <td class="row-val"><p>{{content}}</p></td>
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+    </tr>
+    <tr>
+      <td class="row-key"><p>Sender:</p></td>
+      <td class="row-val"><p>{{sender.username}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Recipient:</p></td>
+      <td class="row-val"><p>{{receiver.username}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Groups who can view me:</p></td>
+      <td class="row-val">
+        {% for group in groups %}
+        <p><a href="{% url 'groups:details' group.name %}">{{group.name}}</a></p>
+        {% endfor %}
+      </td>
+    </tr>
+  </table>
+<<<<<<< HEAD
+ </div>
+ <br>
+=======
+
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+  <form acion='' method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <input id="upload" type='file' name="upload">
+    <input type="submit" value="Create" class="submit" />
+
+  </form>
+<<<<<<< HEAD
+
+
+=======
+  </body>
+
+  {% if is_sender %}
+ 
+  <h2>Add me to a group!</h2>
+  {{error_message}}
+  	<form action="{% url 'fileupload:view_message' message.message_id %}" method="POST">{% csrf_token %}
+	  	<label for="group_name">Group Name:</label>
+	  	<input type="text" name="group_name" value="" id="group_name" class="input">
+
+	  	<input type="submit" value="Create" class="submit" />
+ 	 </form>
+  {% endif %}
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit Folder{% endblock %}
+
+{% block register %}
+
+	<h2>Edit Folder</h2>
+	<form  action="" method="POST">{% csrf_token %}
+		Name: <input id="name" type="text" name="name" label="Name" value="{{folder.name}}" ><br>
+		<h3>Reports:</h3>
+		<table class="table table-bordered">
+		<thead>
+			<th>Report Name</th>
+			<th>Remove from Folder</th>
+		</thead>
+		{% for report in folder.reports.all %}
+			<tr>
+				<td><a href="{% url 'fileupload:view_report' report.report_id %}">{{report.short_description}}</a></td>
+				<td><input type="checkbox" name="checks" value="{{report.report_id}}"></td>
+			</tr>
+		{% endfor %}
+		</table>
+		<input class="btn btn-primary" type='submit' value="Submit">
+	</form>	
+	<br>
+	<a href="{% url 'fileupload:delete_folder' folder.folder_id %}">Delete this folder</a>
+
+
+
+{% endblock %}

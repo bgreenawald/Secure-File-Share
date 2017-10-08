@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block register %}
+  {% if form.errors %}
+  	<p class='error'>Sorry, your credentials are invalid</p>
+  {% endif %}
+
+  {% if request.user.is_authenticated %}
+      <h2>Welcome {{ request.user.username }}!</h2>
+      <a href="{% url 'signup:logout' %}">Logout</a>
+    {% endif %}
+
+  <h4 class='error'>{{error}}</h4>
+<<<<<<< HEAD
+  <form action="/signup/auth/" method="post" class="form-horizontal">{% csrf_token %}
+=======
+  <form action="/signup/auth/" method="post">{% csrf_token %}
+>>>>>>> 182046a0abb36ee486342abb58c4258a9e45291b
+  	<label for="username">Username:</label>
+  	<input type="text" name="username" value="" id="username" class="input">
+    <br>
+  	<label for="password">Password:</label>
+  	<input type="password" name="password" value="" id="password" class="input">
+    <br>
+  	<input type="submit" value="login" class="submit" />
+  </form>
+
+{% endblock %}

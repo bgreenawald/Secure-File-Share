@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+<h2>Trash</h2>
+{% block register %}
+	<h1>Trash</h1>
+    <div class="table-responsive">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th>Description</th>
+			<th>Sender</th>
+			<th>Date Sent</th>
+			<th>Delete Permanently?</th>
+
+    		<form action='' method='POST'>{% csrf_token %}
+		{% for message, sender in message_info %}
+			<tr>
+				<td class="row-key"><p><a href="{% url 'fileupload:view_message' message.message_id %}">{{message.subject}}</a></p></td>
+				<td class="row-val"><p><a href="{% url 'signup:user_details' sender %}">{{sender}}</a></p></td>
+				<td class="row-val">{{message.timestamp}}</td>
+
+				<td class="row-val"><input type='checkbox' name='checks' value={{message.message_id}}></td>
+			</tr>
+		{% endfor %}<br><br>
+	</table>
+        <input class='btn btn-danger' type='submit' value="Delete">
+		</form>
+    
+
+{% endblock %}
+

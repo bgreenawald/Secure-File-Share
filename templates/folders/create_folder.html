@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Create Your Folder{% endblock %}
+
+{% block register %}
+
+	<h2>Create Folder</h2>
+	<form  class="form-group" action="" method="POST">{% csrf_token %}
+		
+		<input class="form-control" id="name" type='text' name="name">
+		<br>
+		<input type='submit' value="Submit" />
+	</form>	
+
+{% endblock %}

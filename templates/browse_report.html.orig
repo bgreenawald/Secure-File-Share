@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block title%}<h2>Browse Reports</h2>{% endblock %}
+
+{% block register %}
+<h2>Browse Reports</h2>
+
+
+<button class="btn btn-default" data-toggle="collapse" data-target="#demo">Search Reports</button><br>
+<div id="demo" class="collapse">
+	<form class="form-horizontal" role="form" action='' method="POST">{% csrf_token %}
+	<br>
+		<div class="form-group">
+		Short Description: <input type="text" name="short_desc" id="short_desc" value={{short_desc}} >
+		</div>
+		<div class="form-group">
+		Long Description: <input type="text" name="long_desc" id="long_desc" value={{long_desc}} >
+		</div>
+		<div class="form-group">
+		Owner: <input type="text" name="owner" id="owner" value={{owner}} >
+		</div>
+		<div class="form-group">
+		Published Since: <input type="date" name="date_since" id="date_since" value={{date_since}} >
+		</div>
+		<div class="form-group">
+		Published Before: <input type="date" name="date_before" id="date_before" value={{date_before}} >
+		</div>
+		<input class="btn btn-primary" type='submit' value="Submit" />
+		</div>
+	</form>
+</div>
+<<<<<<< HEAD
+<br>
+
+
+<div class="table-responsive">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th>Title</th>
+			<th>Owner</th>
+			<th>Date Published</th>
+			<th>Number of Views</th>
+			{% if is_manager %}
+				<th>Delete?</th>
+			{% endif %}
+		</tr>
+		<form action='' method='POST'>{% csrf_token %}
+		{% for report in reports %}
+			<tr>
+				<td class="row-key"><p><a href="{% url 'fileupload:view_report' report.report_id %}">{{report.short_description}}</a></p></td>
+				<td class="row-val"><p><a href="{% url 'signup:user_details' report.owner_name %}">{{report.owner_name}}</a></p></td>
+				<td class="row-val">{{report.timestamp}}</td>
+				<td class="row-val">{{report.num_views}}</td>
+				{% if is_manager %}
+					<td class="row-val"><input type='checkbox' name='checks' value={{report.report_id}}></td>
+				{% endif %}
+			</tr>
+		{% endfor %}
+		</form>
+	</table>
+</div>
+
+
+=======
+
+<body>
+<table class="table">
+<tr>
+	<th>Title</th>
+	<th>Owner</th>
+	<th>Date Published</th>
+	<th>Number of Views</th>
+	{% if is_manager %}
+		<th>Delete?</th>
+	{% endif %}
+</tr>
+<form action='' method='POST'>{% csrf_token %}
+{% for report in reports %}
+	<tr>
+		<td class="row-key"><p><a href="{% url 'fileupload:view_report' report.report_id %}">{{report.short_description}}</a></p></td>
+		<td class="row-val"><p><a href="{% url 'signup:user_details' report.owner_name %}">{{report.owner_name}}</a></p></td>
+		<td class="row-val">{{report.timestamp}}</td>
+		<td class="row-val">{{report.num_views}}</td>
+		{% if is_manager %}
+			<td class="row-val"><input type='checkbox' name='checks' value={{report.report_id}}></td>
+		{% endif %}
+	</tr>
+{% endfor %}
+
+</table>
+</body>
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+{% if is_manager %}
+	<input type='submit' name="Submit" label="Delete">
+{% endif %}
+</form>
+<br>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if reports.has_previous %}
+            <a href="?page={{ reports.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ reports.number }} of {{ reports.paginator.num_pages }}.
+        </span>
+
+        {% if reports.has_next %}
+            <a href="?page={{ reports.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+<<<<<<< HEAD
+
+=======
+</div>
+>>>>>>> d3ae0589d842f9d9aaf1441b216a0767bb98f166
+
+{% endblock %}

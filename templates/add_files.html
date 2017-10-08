@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Some Files!{% endblock %}
+
+{% block register %}
+<h3>Let's go ahead and add some files</h3>
+<p>Uploaded files with be added automatically, just leave the page when you are done</p>
+
+ {% if report.files.all|length > 0 %}
+     {% for file in report.files.all %}
+         <p><a href="{{ file.afile.url }}">{{ file.afile.name }}</a></p>
+     {% endfor %}
+ {% else %}
+     <p class="error">No files!</p>
+ {% endif %}
+
+<form action="">
+{% endblock %}

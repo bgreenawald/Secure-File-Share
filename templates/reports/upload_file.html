@@ -1,0 +1,10 @@
+{% if files %}
+	<ul>
+		{% for file in files %}
+			<li><a href="{{ file.afile.url }}">{{ file.afile.name }}</a></li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<p>No files.</p>
+{% endif %}
+<input type='button' value="Upload file" method="UPLOAD" action="{% url 'fileupload:list' %}" />

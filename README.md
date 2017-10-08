@@ -1,0 +1,2 @@
+# Secure File Share
+The project to be finished by the end of Fall 2016 in CS 3240: Advanced Software Development methods. This project is a secure file sharing web applications where users can host and share files in a secure way. Further, they can securely send messages using end to end public/private key encryption. This project was developed using the Django framework in Python and is hosted on Heroku. 

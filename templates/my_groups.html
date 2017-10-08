@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block register %}
+	{% if user.groups.all|length == 0 %}
+		<p class="error">You are not part of any groups!</p>
+	{% endif %}
+	<ul class="list-group">
+	<h2>Your groups</h2>
+	{% for group in user.groups.all %}
+		<li class="list-group-item"><a href="{% url 'groups:details' group.name %}">{{group.name}}</a></li>
+	{% endfor %}
+	</ul>
+{% endblock %}

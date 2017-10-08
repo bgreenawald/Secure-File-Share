@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block title %}View Report{% endblock %}
+
+{% block register %}
+  <h2>View Report</h2>
+  <body>
+
+  <table class="table table-bordered">
+  <tbody>
+    <tr>
+      <td class="row-key"><p>Short Description:</p></td>
+      <td class="row-val"><p>{{report.short_description}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Long Description:</p></td>
+      <td class="row-val"><p>{{report.long_description}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Report Owner:</p></td>
+      <td class="row-val"><p>{{owner.username}}</p></td>
+    </tr>
+    <tr>
+   	 	<td class="row-key"><p>Date Published:</p></td>
+    	<td class="row-val"><p>{{report.timestamp}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Number of Views:</p></td>
+      <td class="row-val"><p>{{report.num_views}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Files:</p></td>
+      <td class="row-val">
+           {% if report.files.all|length > 0 %}
+             {% for file in report.files.all %}
+              {% if not file.is_encrypted %}
+                 <p><a href="{{ file.afile.url }}">{{ file.filename }}</a></p>
+              {% else %}
+                <p>{{ file.filename }}</p>
+              {% endif %}
+             {% endfor %}
+         {% else %}
+             <p class="error">No files!</p>
+         {% endif %}
+      </td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Groups who can view me:</p></td>
+      <td class="row-val">
+        {% for group in groups %}
+        <p><a href="{% url 'groups:details' group.name %}">{{group.name}}</a></p>
+        {% endfor %}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+
+  </body>
+
+  {% if is_owner or is_manager%}
+ 
+  <h4 class="error">{{report_message}}</h4>
+  	<form action="" method="POST">{% csrf_token %}
+	  	<div class="form-group">
+        Send to a group:
+      <select class="form-control" name="value">
+        <option selected="selected" disabled></option>
+          {% for group in groups2 %}
+          <option value={{group.name}}>{{group.name}}</option>
+        {% endfor %}  
+       </select>
+       <br>
+    <input type='submit' value="Submit">
+ 	 </form>
+   <br><br>
+
+ 	 <a href="{% url 'fileupload:delete_report' report.report_id %}">Delete this report</a><br>
+ 	 <a href="{% url 'fileupload:edit_report' report.report_id %}">Edit this report</a>
+  {% endif %}
+
+  
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+<h2>Inbox</h2>
+{% block register %}
+	<h1>Inbox</h1>
+
+	<button class="btn btn-default" data-toggle="collapse" data-target="#demo">Search Inbox</button><br>
+	<div id="demo" class="collapse">
+	<form class="form-horizontal" role="form" action='' method="POST">{% csrf_token %}
+	<br>
+		<div class="form-group">
+		Subject: <input class="form-control" type="text" name="short_desc" id="short_desc" default="" value={{short_desc}}  >
+		</div>
+		<div class="form-group">
+		Sender: <input class="form-control" type="text" name="owner" id="owner" default="" value={{owner}}  >
+		</div>
+		
+		<div class="form-group">
+		Undread only: <input class="form control" type="checkbox" name="read">
+		</div>
+		<button class="btn btn-primary" type='submit' value="Submit">Search</button>
+		</div>
+	</form>
+</div>
+	
+	<div class="table-responsive">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th>Description</th>
+			<th>Sender</th>
+			<th>Date Sent</th>
+			<th>Status</th>
+			<th>Delete?</th>
+		
+			
+		</tr>
+		<form action='' method='POST'>{% csrf_token %}
+		{% for message, sender in message_info %}
+			<tr>
+				<td class="row-key"><p><a href="{% url 'fileupload:view_message' message.message_id %}">{{message.subject}}</a></p></td>
+				<td class="row-val"><p><a href="{% url 'signup:user_details' sender %}">{{sender}}</a></p></td>
+				<td class="row-val">{{message.timestamp}}</td>
+			
+				{% if message.is_viewed %}
+					<td class="row-val">Read</td>
+				{% else %}					
+					<td class="row-val"><strong>Unread</strong></td>
+				{% endif %}
+				
+				<td class="row-val"><input type='checkbox' name='checks' value={{message.message_id}}></td>
+			</tr>
+		{% endfor %}<br><br>
+        
+	</table>
+	<input class='btn btn-warning' type='submit' value="Delete">
+	</form>
+</div>
+
+{% endblock %}

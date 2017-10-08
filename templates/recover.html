@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Recovery{% endblock %}
+
+{% block register %}
+
+<h2 class="error">{{confirm_message}}</h2>
+<form action='' method="POST">{% csrf_token %}
+<input type='submit' class="btn btn-danger" value="Confirm">
+</form>	
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}View Message{% endblock %}
+
+{% block register %}
+  <h2>View Message</h2>
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <tr>
+      <td class="row-key"><p>Subject:</p></td>
+      <td class="row-val"><p>{{title}}</p></td>
+    </tr>
+    <tr>
+      <td>Content:</td>
+      <td>{{content}}</td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Sender:</p></td>
+      <td class="row-val"><p>{{sender.username}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Recipient:</p></td>
+      <td class="row-val"><p>{{receiver.username}}</p></td>
+    </tr>
+    <tr>
+      <td class="row-key"><p>Groups who can view me:</p></td>
+      <td class="row-val">
+        {% for group in groups %}
+        <p><a href="{% url 'groups:details' group.name %}">{{group.name}}</a></p>
+        {% endfor %}
+      </td>
+    </tr>
+
+
+  </table>
+ </div>
+ <br>
+ {% if encrypted %} 
+ <h3>Decrypt this message:</h3>
+  <form acion='' method="POST" enctype="multipart/form-data">{% csrf_token %}
+    <input id="upload" type='file' name="upload">
+    <br>
+    <input class="btn btn-danger" type="submit" value="Decrypt" class="submit" />
+
+  </form>
+ {% endif %}
+<br>
+ <a href="{% url 'fileupload:reply_message' id %}">Reply to this message</a>
+{% endblock %}
